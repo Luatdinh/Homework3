@@ -1,0 +1,22 @@
+@startuml
+
+object "<u>CS5800:Course</u>" as cc {
+    name: "CS5800 - Advanced Software Engineering"
+}
+
+object "<u>NimaDavarpanah:Instructor</u>" as ni{
+    firstName: "Nima"
+    lastName: "Davarpanah"
+    officeNumber: "3-2636"
+}
+
+object "<u>CleanCode:Textbook</u>" as  ct{
+    title: "CleanCode: A Handbook of Agile Software Craftsmanship"
+    author: "Robert Cecil Martin"
+    publisher: "Pearson"
+}
+
+cc  o--  ni : has a >
+cc  o-- ct : has a >
+
+@enduml

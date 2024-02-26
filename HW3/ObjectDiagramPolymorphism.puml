@@ -1,0 +1,21 @@
+@startuml
+
+object "<u>titanic:Ship</u>" as ts {
+    shipName: "Titanic"
+    yearBuilt: "March 31st, 1909"
+}
+
+object "<u>MVGemini:CruiseShip</u>" as mcs {
+    shipName: "MVGemini"
+    yearBuilt: "May 30th, 1991"
+    maxNumberPassengers: 100
+}
+
+object "<u>EverGiven:CargoShip</u>" as ecs {
+    shipName: "EverGiven"
+    yearBuilt: "September 25th, 2018"
+    cargoCapacityInTonnage: 220940
+}
+
+
+@enduml
